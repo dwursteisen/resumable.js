@@ -845,7 +845,7 @@
         // When new files are added, simply append them to the overall list
         input.addEventListener('change', function(e){
           appendFilesFromFileList(e.target.files,e);
-          e.target.value = '';
+          // e.target.value = '';
         }, false);
       });
     };
